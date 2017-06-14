@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.SB" name="SB" version="1.0.0" provider-name="SB">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">http://xbmckodi.123website.nl/
+</summary>
+    <description lang="en">Visit my YouTube channel for more tutorials. https://www.youtube.com/channel/UCf4x4vW5RmfCQ4r40KEZUGg
+</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <website>http://xbmckodi.123website.nl/
+</website>
+    <email>jerry-b@hotmail.com</email>
+  </extension>
+</addon>
+
+    <addon id="repository.skymahitvtutorial" name="Your SkymashiTV Tutorial Repo" version="0.1.0" provider-name="SkymashiTV">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Your SkymashiTV Tutorial Repo">
+            <info compressed="false">https://raw.githubusercontent.com/BartOtten/kodi-repo-bootstrap/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/BartOtten/kodi-repo-bootstrap/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/BartOtten/kodi-repo-bootstrap/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Tutorial Repository</summary>
+            <description>Fancy Tutorial Repository to install Addons</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
